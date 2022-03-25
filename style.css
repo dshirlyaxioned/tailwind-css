@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+ .wrapper {
+    @apply m-auto w-11/12 
+} 
+.figure-zoom {
+  @apply relative flex items-center justify-center m-3 overflow-hidden shadow-xl w-48 h-60 rounded-full;
+}
+.image-zoom {
+  @apply absolute w-full h-full transition-all duration-700 ease-in transform bg-center bg-cover;
+}
+.figure-zoom:hover {@apply scale-150}
+@tailwind utilities;
