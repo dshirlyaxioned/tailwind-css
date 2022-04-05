@@ -12,7 +12,7 @@
     <header class="absolute z-10 w-full">
       <div class="wrapper w-full">
         <div class="flex justify-between py-5 px-16 w-full opacity-80 bg-black">
-          <h1 class="text-white uppercase font-extrabold text-xl hover:text-orange-200 hover:underline-offset-1 tracking-widest cursor-pointer"><a href="index.html">Bakya</a></h1>
+          <h1 class="text-white uppercase font-extrabold text-xl hover:text-orange-200 hover:underline-offset-1 tracking-widest cursor-pointer hover:animate-spin"><a href="index.html">Bakya</a></h1>
           <nav class="flex">
             <div class="hidden">
               <button>
@@ -41,8 +41,8 @@
           <figure class="w-full h-screen">
             <img class="w-full h-screen" src="./asstes/bakya_banner.jpg" alt="Bakery">
           </figure>
-          <div class="absolute translate-y-1/2 translate-x-1/2 top-56 pl-8 w-2/3">
-            <h2 class="text-white inline-block font-extrabold text-5xl capitalize pb-7 pl-8 font-serif w-2/3"><span class="text-white font-extralight block uppercase text-xl pl-36 pb-3 font-sans">welcome to</span> best bakery store <a href="index.html" class="block capitalize pt-5 pl-32 italic text-orange-400 transition hover:-translate-y-1 hover:translate-z-0  hover:scale-110 cursor-pointer">bakya</a></h2>
+          <div class="absolute translate-y-1/2 translate-x-1/2 top-48 pl-8 w-2/3">
+            <h2 class="text-white inline-block font-extrabold text-5xl capitalize pb-7 pl-8 font-serif w-2/3"><span class="text-white font-extralight block uppercase text-xl pl-36 pb-3 font-sans">welcome to</span> best bakery store <a href="index.html" class="block mx-auto my-0 capitalize pt-5 pl-32 italic text-orange-400 transition hover:-translate-y-1 hover:translate-z-0  hover:scale-110 cursor-pointer">bakya</a></h2>
             <p class="w-5/12 pl-5 text-white inline-block italic">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sed assumenda aspernatur autem deleniti ab fugit. Odio voluptate labore tempora reprehenderit."</p>
           </div>
         </div>
@@ -71,7 +71,7 @@
           <ul class="flex justify-between mt-16">
             <li class="basis-1/5 border-orange-200 border-2 rounded-md">
               <figure class="h-72">
-                <img class="h-72" src="./asstes/oatmeal-bread.jpg" alt="Oatmeal Bread">
+                <img class="w-full h-72" src="./asstes/oatmeal-bread.jpg" alt="Oatmeal Bread">
               </figure>
               <div class="py-5 px-4">
                 <h4 class="text-center font-bold font-serif text-xl capitalize pb-3">oatmeal bread</h4>
@@ -82,7 +82,7 @@
             </li>
             <li class="basis-1/5 border-orange-200 border-2 rounded-md">
               <figure class="h-72">
-                <img class="h-72" src="./asstes/bread_sticks.jpg" alt="Bread Sticks">
+                <img class="h-72 w-full" src="./asstes/bread_sticks.jpg" alt="Bread Sticks">
               </figure>
               <div class="py-5 px-4">
                 <h4 class="text-center font-bold font-serif text-xl capitalize pb-3">bread sticks</h4>
@@ -93,7 +93,7 @@
             </li>
             <li class="basis-1/5 border-orange-200 border-2 rounded-md">
               <figure class="h-72">
-                <img class="h-72" src="./asstes/french_bread.jpg" alt="French Bread">
+                <img class="h-72 w-full" src="./asstes/french_bread.jpg" alt="French Bread">
               </figure>
               <div class="py-5 px-4">
                 <h4 class="text-center font-bold font-serif text-xl capitalize pb-3">french bread</h4>
@@ -104,7 +104,7 @@
             </li>
             <li class="basis-1/5 border-orange-200 border-2 rounded-md">
               <figure class="h-72">
-                <img class="h-72" src="./asstes/braided_bread.jpg" alt="Braided Bread">
+                <img class="h-72 w-full" src="./asstes/braided_bread.jpg" alt="Braided Bread">
               </figure>
               <div class="py-5 px-4">
                 <h4 class="text-center font-bold font-serif text-xl capitalize pb-3">braided bread</h4>
@@ -116,38 +116,36 @@
           </ul>
         </div>
       </section>
-      <section class="bg-orange-100 mt-16 pb-28">
+      <section class="bg-orange-100 mt-16 pb-36">
         <div class="wrapper">
           <h3 class="pt-24 pb-16 text-center text-4xl font-serif capitalize">this week offer</h3>
-          <div class="flex justify-between w-10/12 m-auto border-2 border-orange-200 rounded-md">
-            <figure class="inline-block border-8 border-slate-50">
-              <img src="./asstes/donut.jpg" alt="Donuts">
+          <div class="flex justify-between w-3/4 m-auto border-2 border-orange-200 rounded-2xl">
+            <figure class="border-8 border-slate-50 h-44 basis-60 rounded-tl-2xl rounded-bl-2xl">
+              <img src="./asstes/donut.jpg" alt="Donuts" class="h-40 w-60">
             </figure>
-            <div>
-              <div class="py-4 px-5 bg-white">
-                <h5 class="font-serif pb-2 font-bold text-2xl capitalize">chocolate donut</h5>
-                <span class="font-sans text-slate-800">Price: 55/-</span>
-                <p class="italic text-sm pt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sit neque dolore dignissimos quaerat! Ea quaerat excepturi temporibus.</p>
-              </div>
-              <div class="flex justify-between">
-                <h4 class="mt-28 ml-4 italic font-serif basis-1/5">Some other delicious items :</h4>
-                <ul class="basis-4/5 flex justify-between">
-                  <li class="basis-1/5 pt-16 cursor-pointer">
-                    <figure class="h-full figure-zoom"><img class="h-full rounded-full border-2 image-zoom" src="./asstes/macaron.jpg" alt="Macaron"></figure>
-                  </li>
-                  <li class="basis-1/5 pt-16 cursor-pointer">
-                    <figure class="h-full figure-zoom"><img class="h-full rounded-full border-2 image-zoom" src="./asstes/rainbow_bread.jpg" alt="Rainbow Bread"></figure>
-                  </li>
-                  <li class="basis-1/5 pt-16 cursor-pointer">
-                    <figure class="h-full figure-zoom"><img class="h-full rounded-full border-2 image-zoom" src="./asstes/swirl_donut.jpg" alt="Swirl Donut"></figure>
-                  </li>
-                  <li class="basis-1/5 pt-16 cursor-pointer pr-5">
-                    <figure class="h-full figure-zoom"><img class="h-full rounded-full border-2 image-zoom" src="./asstes/pastry.jpg" alt="Pasty"></figure>
-                  </li>
-                </ul>  
-              </div>
+            <div class="py-4 px-10 bg-white basis-5/6 rounded-tr-2xl rounded-br-2xl">
+              <h5 class="font-serif pb-2 font-bold text-2xl capitalize italic">chocolate donut</h5>
+              <span class="font-sans text-slate-800">Price: 55/-</span>
+              <p class="italic text-sm pt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sit neque dolore dignissimos quaerat! Ea quaerat excepturi temporibus.</p>
             </div>
           </div>
+          <div>
+            <h4 class="mt-28 ml-4 italic font-serif text-center font-bold text-2xl">Some other delicious items :</h4>
+            <ul class="flex justify-between">
+              <li class="basis-1/5 pt-16 cursor-pointer">
+                <figure class="h-44 figure-zoom w-11/12"><img class="h-44 rounded-full border-2 image-zoom" src="./asstes/macaron.jpg" alt="Macaron"></figure>
+              </li>
+              <li class="basis-1/5 pt-16 cursor-pointer">
+                <figure class="h-44 figure-zoom w-11/12"><img class="h-44 rounded-full border-2 image-zoom" src="./asstes/rainbow_bread.jpg" alt="Rainbow Bread"></figure>
+              </li>
+              <li class="basis-1/5 pt-16 cursor-pointer">
+                <figure class="h-44 figure-zoom w-11/12"><img class="h-44 rounded-full border-2 image-zoom" src="./asstes/swirl_donut.jpg" alt="Swirl Donut"></figure>
+              </li>
+              <li class="basis-1/5 pt-16 cursor-pointer pr-5">
+                <figure class="h-44 figure-zoom w-11/12"><img class="h-44 rounded-full border-2 image-zoom" src="./asstes/pastry.jpg" alt="Pasty"></figure>
+              </li>
+            </ul>  
+          </div> 
         </div>
       </section>
       <section>
@@ -158,7 +156,7 @@
               <li class="w-10">
                 <a href="#fixme" title="Facebook">
                   <svg
-                  class="w-6 h-6 text-blue-600 fill-current hover:rounded-full hover:text-blue-800 hover:animate-bounce"
+                  class="w-6 h-6 text-blue-600 fill-current hover:rounded-full hover:text-blue-800 transition hover:-translate-y-1 hover:scale-110"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24">
                   <path
@@ -170,7 +168,7 @@
               <li class="w-10">
                 <a href="#fixme" title="Twitter">
                   <svg
-                    class="w-6 h-6 text-blue-300 fill-current hover:rounded-full hover:text-blue-500 hover:animate-bounce"
+                    class="w-6 h-6 text-blue-300 fill-current hover:rounded-full hover:text-blue-500 transition hover:-translate-y-1 hover:scale-110"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24">
                     <path
@@ -182,7 +180,7 @@
               <li class="w-10">
                 <a href="#fixme" title="LinkedIn">
                   <svg
-                    class="w-6 h-6 text-blue-500 fill-current hover:rounded-full hover:text-blue-800 hover:animate-bounce"
+                    class="w-6 h-6 text-blue-500 fill-current hover:rounded-full hover:text-blue-800 transition hover:-translate-y-1 hover:scale-110"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 448 512">
                     <path
@@ -194,7 +192,7 @@
               <li class="w-10">
                 <a href="#fixme" title="WhatsApp">
                   <svg
-                    class="w-6 h-6 text-green-400 fill-current hover:rounded-full hover:text-green-600 hover:animate-bounce"
+                    class="w-6 h-6 text-green-400 fill-current hover:rounded-full hover:text-green-600 transition hover:-translate-y-1 hover:scale-110"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 448 512">
                     <path
